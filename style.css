@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -85,6 +88,20 @@ section:hover {
 }
 .skill:hover, .project:hover {
     transform: scale(1.05);
+}
+.qr-code {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+    border: 2px solid #4A90E2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.qr-code:hover {
+    transform: scale(1.1);
 }
 footer {
     text-align: center;
